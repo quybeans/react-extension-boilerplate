@@ -55,7 +55,7 @@ const getLoaders = (isEnvProduction = false, isEnvDevelopment = true, shouldUseR
   };
 
   const eslintLoader = {
-    test: /\.(js|mjs|jsx)$/,
+    test: /\.(ts)$/,
     enforce: 'pre',
     use: [
       {
